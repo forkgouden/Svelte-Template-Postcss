@@ -16,7 +16,6 @@ const Config = {
   Links,
   Layout,
   Landing
-
-}
+};
 
 export default Config;

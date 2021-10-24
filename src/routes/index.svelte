@@ -30,5 +30,5 @@
 
 <p>
   Texto final de llamada a la acción o que de pie a seguir contactando, redes
-  sociales, formulario o algo asi
+  sociales, formulario o algo asi.
 </p>

@@ -1,0 +1,33 @@
+@import './styles/variables.postcss';
+@import './styles/media.postcss';
+@import './styles/reset.postcss';
+@import './styles/type.postcss';
+@import './styles/classes.postcss';
+
+iframe {
+  width: 100%;
+  min-height: 540px;
+  margin: calc(var(--unit)/6) 0
+}
+
+article {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  right: 0;
+  left: 0;
+  margin: calc(var(--unit)/6) 0;
+  padding: calc(var(--unit)/6)
+
+  &:first-of-type {
+    padding: 0 calc(var(--unit)/4)
+  }
+
+}
+
+.gray {
+  background-color: var(--whiteDark);
+  border-radius: 1rem
+}
+
